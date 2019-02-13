@@ -19,7 +19,7 @@ Citizen.CreateThread(function()
 	SetBlipSprite(company, 419)
 	SetBlipAsShortRange(company, true)
 	BeginTextCommandSetBlipName("STRING")
-	AddTextComponentString("Gouvernement")
+	AddTextComponentString("Guvern")
 	EndTextCommandSetBlipName(company)
 
 	while playerJob == "" do
@@ -67,7 +67,7 @@ Citizen.CreateThread(function()
 				Info("Apasa ~INPUT_PICKUP~ pentru a deschide seiful.")
 
 				if(IsControlJustPressed(1, 38)) then
-					renderMenu("gouv", "Gouvernement")
+					renderMenu("gouv", "Guvern")
 				end
 			end
 		end
